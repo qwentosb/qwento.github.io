@@ -1,0 +1,13 @@
+Package: fr.qwento.FirstRelease
+Version: 1.0
+Section: Tweaks
+Maintainer: qwento <starttower@icloud.com>
+Depends: firmware (>10.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/A Test Tweak.deb
+Size: 854
+MD5sum: c92d4235cdbdd334224f66ed611fc0e0
+Description: This is a test package.
+Name: Test package
+Author: qwento <starttower@icloud.com>
+Depiction: A Test tweak
