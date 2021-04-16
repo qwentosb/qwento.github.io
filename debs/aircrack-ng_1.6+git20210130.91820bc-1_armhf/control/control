@@ -1,0 +1,24 @@
+Package: aircrack-ng
+Version: 1:1.6+git20210130.91820bc-1
+Architecture: armhf
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 1655
+Depends: ethtool, hwloc, iw, rfkill, usbutils, wireless-tools, libc6 (>= 2.28), libgcc-s1 (>= 3.5), libgcrypt20 (>= 1.8.0), libhwloc15 (>= 2.4.1~rc1+dfsg), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libpcap0.8 (>= 0.9.8), libpcre3, libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Recommends: ieee-data
+Suggests: gpsd
+Section: net
+Priority: optional
+Homepage: https://www.aircrack-ng.org/
+Description: wireless WEP/WPA cracking utilities
+ aircrack-ng is an 802.11a/b/g WEP/WPA cracking program that can recover a
+ 40-bit, 104-bit, 256-bit or 512-bit WEP key once enough encrypted packets
+ have been gathered. Also it can attack WPA1/2 networks with some advanced
+ methods or simply by brute force.
+ .
+ It implements the standard FMS attack along with some optimizations,
+ thus making the attack much faster compared to other WEP cracking tools.
+ It can also fully use a multiprocessor system to its full power in order
+ to speed up the cracking process.
+ .
+ aircrack-ng is a fork of aircrack, as that project has been stopped by
+ the upstream maintainer.
