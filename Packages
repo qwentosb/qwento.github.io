@@ -18,8 +18,8 @@ Section: Tweaks
 Maintainer: qwento <starttower@icloud.com>
 Depends: firmware (>10.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/libc6.deb
-Size: 2605
+Filename: ./debs/libc6_2.31-11_armhf.deb
+Size: 2274
 MD5sum: c92d4235cdbdd334224f66ed611fc0e0
 Description: This is a lib for hacking package.
 Name: libc6
