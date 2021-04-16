@@ -2,7 +2,7 @@ Package: fr.qwento.libc6
 Name: libc6
 Source: glibc
 Version: 2.31-11
-Section: Tweaks
+Section: libs
 Architecture: armhf
 Filename: ./debs/libc6_2.31-11_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=libc6
@@ -25,7 +25,7 @@ Description: GNU C Library: Shared libraries
 Package: fr.qwento.aircrack-ng
 Name: Aircrack
 Version: 1:1.6+git20210130.91820bc-1
-Section: Tweaks
+Section: net
 Architecture: armhf
 Filename: ./debs/aircrack-ng_1.6+git20210130.91820bc-1_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=aircrack
@@ -51,3 +51,21 @@ Description: wireless WEP/WPA cracking utilities
  .
  aircrack-ng is a fork of aircrack, as that project has been stopped by
  the upstream maintainer.
+
+Package: fr.qwento.ethtool
+Name: ETHtool
+Version: 1:5.9-1
+Architecture: armhf
+Filename: ./debs/ethtool_5.9-1_armhf.deb
+Depiction: https://qwentosb.github.io/qwento/depictions/?p=ethtool
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Size: 170072
+MD5sum: f35d682ab0dfbebd472c1d4fb1fce02f
+Depends: libc6 (>= 2.7), libmnl0 (>= 1.0.3-4~)
+Section: net
+Priority: optional
+Homepage: https://www.kernel.org/pub/software/network/ethtool/
+Description: display or change Ethernet device settings
+ ethtool can be used to query and change settings such as speed, auto-
+ negotiation and checksum offload on many network devices, especially
+ Ethernet devices.
