@@ -1,0 +1,32 @@
+<package>
+	<id>fr.qwento.libmnl-dev</id>
+	<name>libmnl-dev</name>
+	<version>1.0.4-3</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>minimalistic Netlink communication library</shortDescription>
+	<descriptionlist>
+		<description>minimalistic Netlink communication library</description>
+		<description>minimalistic Netlink communication library</description>
+		<description><![CDATA[
+		You can also have<br/> 
+		a multi-line item.
+		]]>
+		</description>
+	</descriptionlist>
+			
+	</screenshots>
+	<links>
+		<link>
+			<name>@antobreizh</name>
+			<url>https://www.twitter.com/antobreizh</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
