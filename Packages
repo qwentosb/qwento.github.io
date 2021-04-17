@@ -137,3 +137,22 @@ Description: GCC support library
  that GCC uses to overcome shortcomings of particular machines, or
  special needs for some languages.
 Important: yes
+
+Package: fr.qwento.gcc-10-base
+Name: gcc-10-base
+Source: gcc-10
+Version: 10.2.1-6
+Architecture: armhf
+Filename: ./debs/gcc-10-base_10.2.1-6_armhf.deb
+Depiction: https://qwentosb.github.io/qwento/depictions/?p=gcc-10-base
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Size: 201312
+MD5sum: 1db2618886d4865c9d2a6a0279111bdb
+Breaks: gnat (<< 7)
+Section: libs
+Priority: required
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Description: GCC, the GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
