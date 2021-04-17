@@ -1,15 +1,15 @@
-Package: libmnl-dev
+Package: libmnl0
 Source: libmnl
 Version: 1.0.4-3
 Architecture: armhf
 Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
-Installed-Size: 29
-Depends: libmnl0 (= 1.0.4-3)
-Section: libdevel
+Installed-Size: 34
+Depends: libc6 (>= 2.4)
+Section: libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://netfilter.org/projects/libmnl/
-Description: minimalistic Netlink communication library (devel)
+Description: minimalistic Netlink communication library
  libmnl is a minimalistic user-space library oriented to Netlink developers.
  There are a lot of common tasks in parsing, validating, constructing of
  both the Netlink header and TLVs that are repetitive and easy to get wrong.
@@ -34,6 +34,5 @@ Description: minimalistic Netlink communication library (devel)
  library is reduced, i.e. the library provides many helpers, but the
  programmer is not forced to use them.
  .
- This package contains the development libraries and header files you need
- to develop your programs using the minimalistic Netlink communication
- library.
+ This package contains the shared libraries needed to run programs that use
+ the minimalistic Netlink communication library.

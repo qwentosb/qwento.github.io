@@ -70,22 +70,21 @@ Description: display or change Ethernet device settings
  negotiation and checksum offload on many network devices, especially
  Ethernet devices.
 
-Package: fr.qwento.libmnl-dev
-Name: libmnl-dev
+Package: fr.qwento.libmnl0
 Source: libmnl
 Version: 1.0.4-3
 Architecture: armhf
-Filename: ./debs/libmnl-dev_1.0.4-3_armhf.deb
-Depiction: https://qwentosb.github.io/qwento/depictions/?p=libmnl-dev
+Filename: ./debs/libmnl0_1.0.4-3_armhf.deb
+Depiction: https://qwentosb.github.io/qwento/depictions/?p=libmnl0
 Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
-Size: 7752
-MD5sum: fb15faa6e1134d2cc0d06b14dec4bfa5
-Depends: libmnl0 (= 1.0.4-3)
-Section: lib
+Size: 10860
+MD5sum: c07891e4667f5afab5188cdadab8d233
+Depends: libc6 (>= 2.4)
+Section: libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://netfilter.org/projects/libmnl/
-Description: minimalistic Netlink communication library (devel)
+Description: minimalistic Netlink communication library
  libmnl is a minimalistic user-space library oriented to Netlink developers.
  There are a lot of common tasks in parsing, validating, constructing of
  both the Netlink header and TLVs that are repetitive and easy to get wrong.
@@ -110,6 +109,5 @@ Description: minimalistic Netlink communication library (devel)
  library is reduced, i.e. the library provides many helpers, but the
  programmer is not forced to use them.
  .
- This package contains the development libraries and header files you need
- to develop your programs using the minimalistic Netlink communication
- library.
+ This package contains the shared libraries needed to run programs that use
+ the minimalistic Netlink communication library.

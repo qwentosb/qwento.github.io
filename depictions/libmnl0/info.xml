@@ -1,6 +1,6 @@
 <package>
-	<id>fr.qwento.libmnl-dev</id>
-	<name>libmnl-dev</name>
+	<id>fr.qwento.libmnl0</id>
+	<name>libmnl0</name>
 	<version>1.0.4-3</version>
 	<compatibility>
 		<firmware>
@@ -22,11 +22,11 @@
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>Lib for hacking</description>
+			<description>minimalistic Netlink communication library</description>
 			<image>cydia.jpg</image>
 		</screenshot>		
 		<screenshot>
-			<description>Lib for hacking</description>
+			<description>minimalistic Netlink communication library</description>
 			<image>cydia.jpg</image>
 		</screenshot>		
 	</screenshots>
