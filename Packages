@@ -3,7 +3,7 @@ Name: libc6
 Source: glibc
 Version: 2.31-11
 Section: libs
-Architecture: armhf
+Architecture: iphoneos-arm
 Filename: ./debs/libc6_2.31-11_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=libc6
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
@@ -26,7 +26,7 @@ Package: fr.qwento.aircrack-ng
 Name: Aircrack
 Version: 1:1.6+git20210130.91820bc-1
 Section: net
-Architecture: armhf
+Architecture: iphoneos-arm
 Filename: ./debs/aircrack-ng_1.6+git20210130.91820bc-1_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=aircrack
 Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
@@ -55,7 +55,7 @@ Description: wireless WEP/WPA cracking utilities
 Package: fr.qwento.ethtool
 Name: ETHtool
 Version: 1:5.9-1
-Architecture: armhf
+Architecture: iphoneos-arm
 Filename: ./debs/ethtool_5.9-1_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=ethtool
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
@@ -74,7 +74,7 @@ Package: fr.qwento.libmnl0
 Name: libmnl0
 Source: libmnl
 Version: 1.0.4-3
-Architecture: armhf
+Architecture: iphoneos-arm
 Filename: ./debs/libmnl0_1.0.4-3_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=libmnl0
 Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
@@ -117,7 +117,7 @@ Package: fr.qwento.libgcc-s1
 Name: libgcc-s1
 Source: gcc-10
 Version: 10.2.1-6
-Architecture: armhf
+Architecture: iphoneos-arm
 Filename: ./debs/libgcc-s1_10.2.1-6_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=libgcc-s1
 Protected: yes
