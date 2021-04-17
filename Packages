@@ -71,6 +71,7 @@ Description: display or change Ethernet device settings
  Ethernet devices.
 
 Package: fr.qwento.libmnl0
+Name: libmnl0
 Source: libmnl
 Version: 1.0.4-3
 Architecture: armhf
@@ -113,6 +114,7 @@ Description: minimalistic Netlink communication library
  the minimalistic Netlink communication library.
 
 Package: fr.qwento.libgcc-s1
+Name: libgcc-s1
 Source: gcc-10
 Version: 10.2.1-6
 Architecture: armhf
