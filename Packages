@@ -111,3 +111,27 @@ Description: minimalistic Netlink communication library
  .
  This package contains the shared libraries needed to run programs that use
  the minimalistic Netlink communication library.
+
+Package: fr.qwento.libgcc-s1
+Source: gcc-10
+Version: 10.2.1-6
+Architecture: armhf
+Filename: ./debs/libgcc-s1_10.2.1-6_armhf.deb
+Depiction: https://qwentosb.github.io/qwento/depictions/?p=libgcc-s1
+Protected: yes
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Size: 36200
+MD5sum: c40c1da2fcd91bae82e0a345636b1fff
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.4)
+Breaks: cryptsetup-initramfs (<< 2:2.2.2-3~)
+Replaces: libgcc1 (<< 1:10)
+Provides: libgcc-s1-armhf, libgcc1 (= 1:10.2.1-6)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Description: GCC support library
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+Important: yes
