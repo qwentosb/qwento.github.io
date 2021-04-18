@@ -142,7 +142,7 @@ Package: fr.qwento.gcc-10-base
 Name: gcc-10-base
 Source: gcc-10
 Version: 10.2.1-6
-Architecture: armhf
+Architecture: arm64
 Filename: ./debs/arm64/gcc-10-base_10.2.1-6_arm64.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=gcc-10-base
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
