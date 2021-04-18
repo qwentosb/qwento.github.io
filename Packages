@@ -4,7 +4,7 @@ Source: glibc
 Version: 2.31-11
 Section: libs
 Architecture: iphoneos-arm
-Filename: ./debs/libc6_2.31-11_armhf.deb
+Filename: ./debs/armhf/libc6_2.31-11_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=libc6
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Size: 2328372
@@ -27,7 +27,7 @@ Name: Aircrack
 Version: 1:1.6+git20210130.91820bc-1
 Section: net
 Architecture: iphoneos-arm
-Filename: ./debs/aircrack-ng_1.6+git20210130.91820bc-1_armhf.deb
+Filename: ./debs/armhf/aircrack-ng_1.6+git20210130.91820bc-1_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=aircrack
 Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
 Size: 479668 
@@ -56,7 +56,7 @@ Package: fr.qwento.ethtool
 Name: ETHtool
 Version: 1:5.9-1
 Architecture: iphoneos-arm
-Filename: ./debs/ethtool_5.9-1_armhf.deb
+Filename: ./debs/armhf/ethtool_5.9-1_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=ethtool
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Size: 170072
@@ -75,7 +75,7 @@ Name: libmnl0
 Source: libmnl
 Version: 1.0.4-3
 Architecture: iphoneos-arm
-Filename: ./debs/libmnl0_1.0.4-3_armhf.deb
+Filename: ./debs/armhf/libmnl0_1.0.4-3_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=libmnl0
 Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
 Size: 10860
@@ -118,7 +118,7 @@ Name: libgcc-s1
 Source: gcc-10
 Version: 10.2.1-6
 Architecture: iphoneos-arm
-Filename: ./debs/libgcc-s1_10.2.1-6_armhf.deb
+Filename: ./debs/armhf/libgcc-s1_10.2.1-6_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=libgcc-s1
 Protected: yes
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
@@ -143,7 +143,7 @@ Name: gcc-10-base
 Source: gcc-10
 Version: 10.2.1-6
 Architecture: armhf
-Filename: ./debs/gcc-10-base_10.2.1-6_armhf.deb
+Filename: ./debs/arm64/gcc-10-base_10.2.1-6_armhf.deb
 Depiction: https://qwentosb.github.io/qwento/depictions/?p=gcc-10-base
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Size: 201312
