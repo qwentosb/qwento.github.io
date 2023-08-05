@@ -180,3 +180,22 @@ Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
  the system. This package includes shared versions of the standard C library
  and the standard math library, as well as many others.
+
+Package: fr.qwento.mterminal
+Name: MTerminal
+Source: mobileterminal
+Version: 520-2
+Section: Terminal Support
+Architecture: iphoneos-arm
+Filename: ./debs/arm64/mobileterminal_520-2.deb
+Depiction: https://qwentosb.github.io/qwento/depictions/?p=MTerminal
+Maintainer: MobileTerminal by BigBoss repo
+Size: 237756
+Depends: system-cmds, ncurses, coreutils, bash, dpkg
+Section: Terminal Support
+Priority: optional
+Multi-Arch: same
+Homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mobileterminalDp
+MD5sum: 976152ac3cce2f95ae2092d97807fc31
+Description: A Terminal application for iPhone
+This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: ssh into remote boxes, download files, edit configuration files, whatever.
