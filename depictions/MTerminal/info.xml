@@ -1,0 +1,40 @@
+<package>
+	<id>fr.qwento.mterminal</id>
+	<name>MTerminal</name>
+	<version>520-2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>3.2</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>Terminal</shortDescription>
+	<descriptionlist>
+		<description>Terminal</description>
+		<description>Terminal</description>
+		<description><![CDATA[
+		You can also have<br/> 
+		a multi-line item.
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>Terminal</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>Terminal</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<links>
+		<link>
+			<name>antoinedevaudbrousse</name>
+			<url>https://www.instagram.com/antoinedevaudbrousse/</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
