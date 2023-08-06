@@ -1,0 +1,16 @@
+/* dark-theme.css */
+
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  color: #f0f0f0;
+}
+
+a {
+  color: #94d6ff;
+}
+
+/* Ajoutez d'autres styles pour les éléments spécifiques de votre site */
