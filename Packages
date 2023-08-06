@@ -1,37 +1,13 @@
-Package: fr.qwento.libc6
-Name: libc6
-Source: glibc
-Version: 2.31-11
-Section: libs
-Architecture: iphoneos-arm
-Filename: ./debs/armhf/libc6_2.31-11_armhf.deb
-Depiction: https://qwentosb.github.io/qwento/depictions/?p=libc6
-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Size: 2328372
-Depends: libgcc-s1, libcrypt1
-Recommends: libidn2-0 (>= 2.0.5~), libnss-nis, libnss-nisplus
-Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales
-Breaks: busybox (<< 1.30.1-6), hurd (<< 1:0.9.git20170910-1), ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~), iraf-fitsutil (<< 2018.07.06-4), libgegl-0.4-0 (<< 0.4.18), libtirpc1 (<< 0.2.3), locales (<< 2.31), locales-all (<< 2.31), macs (<< 2.2.7.1-3~), nocache (<< 1.1-1~), nscd (<< 2.31), openarena (<< 0.8.8+dfsg-4~), openssh-server (<< 1:8.1p1-5), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.gnu.org/software/libc/libc.html
-MD5sum: da9ee3e0df9fd53834825d07c4c6e7ff
-Description: GNU C Library: Shared libraries
- Contains the standard libraries that are used by nearly all programs on
- the system. This package includes shared versions of the standard C library
- and the standard math library, as well as many others.
-
 Package: fr.qwento.aircrack-ng
 Name: Aircrack
 Version: 1:1.6+git20210130.91820bc-1
 Section: net
 Architecture: iphoneos-arm
-Filename: ./debs/armhf/aircrack-ng_1.6+git20210130.91820bc-1_armhf.deb
-Depiction: https://qwentosb.github.io/qwento/depictions/?p=aircrack
+Filename: ./debs/arm64/aircrack-ng_1.6+git20210130.91820bc-1_arm64.deb
+Depiction: ./depictions/aircrack
 Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
-Size: 479668 
-MD5sum: 8d91bd2f968e6defba2ae52b94c9f1c6
+Size: 489100
+MD5sum: 982c2d18ec64ce4d326267cd1c780ac7
 Depends: ethtool, hwloc, iw, rfkill, usbutils, wireless-tools, libc6 (>= 2.28), libgcc-s1 (>= 3.5), libgcrypt20 (>= 1.8.0), libhwloc15 (>= 2.4.1~rc1+dfsg), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libpcap0.8 (>= 0.9.8), libpcre3, libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
 Recommends: ieee-data
 Suggests: gpsd
@@ -52,78 +28,17 @@ Description: wireless WEP/WPA cracking utilities
  aircrack-ng is a fork of aircrack, as that project has been stopped by
  the upstream maintainer.
 
-Package: fr.qwento.ethtool
-Name: ETHtool
-Version: 1:5.9-1
-Architecture: iphoneos-arm
-Filename: ./debs/armhf/ethtool_5.9-1_armhf.deb
-Depiction: https://qwentosb.github.io/qwento/depictions/?p=ethtool
-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Size: 170072
-MD5sum: f35d682ab0dfbebd472c1d4fb1fce02f
-Depends: libc6 (>= 2.7), libmnl0 (>= 1.0.3-4~)
-Section: net
-Priority: optional
-Homepage: https://www.kernel.org/pub/software/network/ethtool/
-Description: display or change Ethernet device settings
- ethtool can be used to query and change settings such as speed, auto-
- negotiation and checksum offload on many network devices, especially
- Ethernet devices.
-
-Package: fr.qwento.libmnl0
-Name: libmnl0
-Source: libmnl
-Version: 1.0.4-3
-Architecture: iphoneos-arm
-Filename: ./debs/armhf/libmnl0_1.0.4-3_armhf.deb
-Depiction: https://qwentosb.github.io/qwento/depictions/?p=libmnl0
-Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
-Size: 10860
-MD5sum: c07891e4667f5afab5188cdadab8d233
-Depends: libc6 (>= 2.4)
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://netfilter.org/projects/libmnl/
-Description: minimalistic Netlink communication library
- libmnl is a minimalistic user-space library oriented to Netlink developers.
- There are a lot of common tasks in parsing, validating, constructing of
- both the Netlink header and TLVs that are repetitive and easy to get wrong.
- This library aims to provide simple helpers that allows you to re-use code
- and to avoid re-inventing the wheel.
- .
- The main features of this library are:
- .
- Small: the shared library requires around 30KB for an x86-based computer.
- .
- Simple: this library avoids complexity and elaborated abstractions that
- tend to hide Netlink details.
- .
- Easy to use: the library simplifies the work for Netlink-wise developers.
- It provides functions to make socket handling, message building,
- validating, parsing and sequence tracking, easier.
- .
- Easy to re-use: you can use the library to build your own abstraction
- layer on top of this library.
- .
- Decoupling: the interdependency of the main bricks that compose the
- library is reduced, i.e. the library provides many helpers, but the
- programmer is not forced to use them.
- .
- This package contains the shared libraries needed to run programs that use
- the minimalistic Netlink communication library.
-
 Package: fr.qwento.libgcc-s1
 Name: libgcc-s1
 Source: gcc-10
 Version: 10.2.1-6
 Architecture: iphoneos-arm
-Filename: ./debs/armhf/libgcc-s1_10.2.1-6_armhf.deb
-Depiction: https://qwentosb.github.io/qwento/depictions/?p=libgcc-s1
+Filename: ./debs/arm64/libgcc-s1_10.2.1-6_arm64.deb
+Depiction: ./depictions/libgcc-s1
 Protected: yes
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Size: 36200
-MD5sum: c40c1da2fcd91bae82e0a345636b1fff
+Size: 34572
+MD5sum: e7c930f7e0ed7d7127d8bf24509cb2c9
 Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.4)
 Breaks: cryptsetup-initramfs (<< 2:2.2.2-3~)
 Replaces: libgcc1 (<< 1:10)
@@ -144,7 +59,7 @@ Source: gcc-10
 Version: 10.2.1-6
 Architecture: arm64
 Filename: ./debs/arm64/gcc-10-base_10.2.1-6_arm64.deb
-Depiction: https://qwentosb.github.io/qwento/depictions/?p=gcc-10-base
+Depiction: ./depictions/gcc-10-base
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Size: 201340
 MD5sum: 1651a8d1c55cb889294b2ec49c9b0d0a
@@ -157,30 +72,6 @@ Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
 
-Package: fr.qwento.UTM
-Name: UTM
-Source: glibc
-Version: 2.31-11
-Section: libs
-Architecture: iphoneos-arm
-Filename: ./debs/armhf/libc6_2.31-11_armhf.deb
-Depiction: https://qwentosb.github.io/qwento/depictions/?p=libc6
-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Size: 2328372
-Depends: libgcc-s1, libcrypt1
-Recommends: libidn2-0 (>= 2.0.5~), libnss-nis, libnss-nisplus
-Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales
-Breaks: busybox (<< 1.30.1-6), hurd (<< 1:0.9.git20170910-1), ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~), iraf-fitsutil (<< 2018.07.06-4), libgegl-0.4-0 (<< 0.4.18), libtirpc1 (<< 0.2.3), locales (<< 2.31), locales-all (<< 2.31), macs (<< 2.2.7.1-3~), nocache (<< 1.1-1~), nscd (<< 2.31), openarena (<< 0.8.8+dfsg-4~), openssh-server (<< 1:8.1p1-5), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.gnu.org/software/libc/libc.html
-MD5sum: da9ee3e0df9fd53834825d07c4c6e7ff
-Description: GNU C Library: Shared libraries
- Contains the standard libraries that are used by nearly all programs on
- the system. This package includes shared versions of the standard C library
- and the standard math library, as well as many others.
-
 Package: fr.qwento.mterminal
 Name: MTerminal
 Source: mobileterminal
@@ -188,7 +79,7 @@ Version: 520-2
 Section: Terminal Support
 Architecture: iphoneos-arm
 Filename: ./debs/arm64/mobileterminal_520-2.deb
-Depiction: https://qwentosb.github.io/qwento/depictions/?p=MTerminal
+Depiction: ./depictions/MTerminal
 Maintainer: MobileTerminal by BigBoss repo
 Size: 237756
 Depends: system-cmds, ncurses, coreutils, bash, dpkg
