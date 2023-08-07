@@ -1,19 +1,19 @@
 <package>
-	<id>fr.qwento.libc6</id>
-	<name>libc6</name>
-	<version>2.31-11</version>
+	<id>fr.qwento.utm</id>
+	<name>UTM</name>
+	<version>4.3.5</version>
 	<compatibility>
 		<firmware>
-			<miniOS>10.0</miniOS>
+			<miniOS>10</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
-	<shortDescription>Lib for hacking</shortDescription>
+	<shortDescription>VMs</shortDescription>
 	<descriptionlist>
-		<description>Lib for hacking</description>
-		<description>Lib for hacking</description>
+		<description>VMs</description>
+		<description>VMs</description>
 		<description><![CDATA[
 		You can also have<br/> 
 		a multi-line item.
@@ -22,19 +22,19 @@
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>Lib for hacking</description>
+			<description>VMs</description>
 			<image>cydia.jpg</image>
 		</screenshot>		
 		<screenshot>
-			<description>Lib for hacking</description>
+			<description>VMs</description>
 			<image>cydia.jpg</image>
 		</screenshot>		
 	</screenshots>
 	<links>
 		<link>
-			<name>@antobreizh</name>
-			<url>https://www.twitter.com/antobreizh</url>
-			<iconclass>fa fa-reddit</iconclass>
+			<name>antoinedevaudbrousse</name>
+			<url>https://www.instagram.com/antoinedevaudbrousse/</url>
+			<iconclass>fa fa-instagram</iconclass>
 		</link>
 	</links>
 </package>

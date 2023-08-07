@@ -88,5 +88,21 @@ Priority: optional
 Multi-Arch: same
 Homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mobileterminalDp
 MD5sum: 976152ac3cce2f95ae2092d97807fc31
-Description: A Terminal application for iPhone
-This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: ssh into remote boxes, download files, edit configuration files, whatever.
+Description: A Terminal application for iPhone. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: ssh into remote boxes, download files, edit configuration files, whatever.
+
+Package: fr.qwento.utm
+Name: UTM
+Source: mobileterminal
+Version: 4.3.5
+Section: Terminal Support
+Architecture: iphoneos-arm64
+Filename: ./debs/arm64/utm.deb
+Depiction: ./depictions/UTM
+Maintainer: UTM 
+Size: 122024442
+Section: VMs
+Priority: optional
+Multi-Arch: same
+Homepage: https://getutm.app/
+MD5sum: b8a25717547a05fbee38e8c85b0f64e8
+Description: UTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad.
