@@ -1,7 +1,7 @@
 Package: fr.qwento.aircrack-ng
 Name: Aircrack
 Version: 1:1.6+git20210130.91820bc-1
-Section: net
+Section: Hacking
 Architecture: iphoneos-arm64
 Filename: ./debs/arm64/aircrack-ng_1.6+git20210130.91820bc-1_arm64.deb
 Depiction: ./depictions/aircrack
@@ -43,7 +43,7 @@ Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.4)
 Breaks: cryptsetup-initramfs (<< 2:2.2.2-3~)
 Replaces: libgcc1 (<< 1:10)
 Provides: libgcc-s1-armhf, libgcc1 (= 1:10.2.1-6)
-Section: libs
+Section: Libs
 Priority: optional
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -64,7 +64,7 @@ Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Size: 201340
 MD5sum: 1651a8d1c55cb889294b2ec49c9b0d0a
 Breaks: gnat (<< 7)
-Section: libs
+Section: Libs
 Priority: required
 Multi-Arch: same
 Homepage: http://gcc.gnu.org/
@@ -76,7 +76,7 @@ Package: fr.qwento.mterminal
 Name: MTerminal
 Source: mobileterminal
 Version: 520-2
-Section: Terminal Support
+Section: Terminal
 Architecture: iphoneos-arm64
 Filename: ./debs/arm64/mobileterminal_520-2.deb
 Depiction: ./depictions/MTerminal
@@ -94,7 +94,7 @@ Package: fr.qwento.utm
 Name: UTM
 Source: mobileterminal
 Version: 4.3.5
-Section: Terminal Support
+Section: VMs
 Architecture: iphoneos-arm64
 Filename: ./debs/arm64/utm.deb
 Depiction: ./depictions/UTM
