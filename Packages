@@ -8,6 +8,9 @@ Depiction: ./depictions/aircrack
 Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
 Size: 489100
 MD5sum: 982c2d18ec64ce4d326267cd1c780ac7
+SHA1: 423e27a79999771e0aa1b57613e5babdb09e8dd0
+SHA256: d806bdd51ad1c02b28accb5b584156ea8aa519d6b8033164bee82fbfa116e68c
+SHA515: 3b0b39a3ee1301c84b772c6e3b0de6396274b044631220abb566ff98aa85e059c00e42b313035f69b32f5b603ba1f07c8e1c0621c4a88fb25772f668d96b96bb
 Depends: ethtool, hwloc, iw, rfkill, usbutils, wireless-tools, libc6 (>= 2.28), libgcc-s1 (>= 3.5), libgcrypt20 (>= 1.8.0), libhwloc15 (>= 2.4.1~rc1+dfsg), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libpcap0.8 (>= 0.9.8), libpcre3, libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
 Recommends: ieee-data
 Suggests: gpsd
@@ -39,6 +42,9 @@ Protected: yes
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Size: 34572
 MD5sum: e7c930f7e0ed7d7127d8bf24509cb2c9
+SHA1: 33ff25e141d9f0679355f340ca88ff6ea0c7b0ae
+SHA256: e2fcdb378d3c1ad1bcb64d4fb6b37aab44011152beca12a4944f435a2582df1f
+SHA515: 31604306f13cc3c61cc32d2bb00859868f310447da8cae10f2410ce6616282ca2e635ca5fa73d35e8330e7ebffc825a1783bd04529b758e2ed1e1aa7110f1020
 Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.4)
 Breaks: cryptsetup-initramfs (<< 2:2.2.2-3~)
 Replaces: libgcc1 (<< 1:10)
@@ -63,6 +69,9 @@ Depiction: ./depictions/gcc-10-base
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Size: 201340
 MD5sum: 1651a8d1c55cb889294b2ec49c9b0d0a
+SHA1: d85e005b3ed4a7058025fd95e4ed1665454eb5ae
+SHA256: 7d782bece7b4a36bed045a7e17d17244cb8f7e4732466091b01412ebf215defb
+SHA515: aeb38fa75080c20aa3eb3c26d9bc952060d7820b107683f9706e40a50a1779cf1d250e115fb0600eaf10f32d23f55b2b2119970275c04332911d20eb6dd26991
 Breaks: gnat (<< 7)
 Section: Libs
 Priority: required
@@ -88,11 +97,14 @@ Priority: optional
 Multi-Arch: same
 Homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mobileterminalDp
 MD5sum: 976152ac3cce2f95ae2092d97807fc31
+SHA1: 3cc37047bab030c34b9a4104f1ef655c4c960d6a
+SHA256: 6f02bb0e3f2833140725f3d6b848e9b0a1e786855dc451778133149ac2ebc986
+SHA515: 734cdd8f62246936030421e172a2f484593d2472ce7c844fe782d9650ebe331eabc4bfdbd4593b5faec9a786a3ffb7dd2e0b5caca1af4c9c3dfb0a6c699b0baa
 Description: A Terminal application for iPhone. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: ssh into remote boxes, download files, edit configuration files, whatever.
 
 Package: fr.qwento.utm
 Name: UTM
-Source: mobileterminal
+Source: utm
 Version: 4.3.5
 Section: VMs
 Architecture: iphoneos-arm64
@@ -105,4 +117,7 @@ Priority: optional
 Multi-Arch: same
 Homepage: https://getutm.app/
 MD5sum: b8a25717547a05fbee38e8c85b0f64e8
+SHA1: 18f70adf3eae23c1d4cd2db6b740eab7266dc5ab
+SHA256: f3f60ad549b81234a061e57b3930e04f9eee6f9328ac4a3587e323891d8e6670
+SHA515: c9951ef58bf71e6139c90c9dbed76beb816e356a0b085b3ab6ebf973ef488a5fc649ed46bb9472fab1662f352639b9bd04324b32517545c7bba7405b75f91d8d
 Description: UTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad.
