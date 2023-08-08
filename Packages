@@ -86,7 +86,7 @@ Name: MTerminal
 Source: mobileterminal
 Version: 520-2
 Section: Terminal
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Filename: ./debs/arm64/mobileterminal_520-2.deb
 Depiction: ./depictions/MTerminal
 Maintainer: MobileTerminal by BigBoss repo
