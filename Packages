@@ -2,7 +2,7 @@ Package: fr.qwento.aircrack-ng
 Name: Aircrack
 Version: 1:1.6+git20210130.91820bc-1
 Section: Hacking
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64 iphoneos-arm
 Filename: ./debs/arm64/aircrack-ng_1.6+git20210130.91820bc-1_arm64.deb
 Depiction: ./depictions/aircrack
 Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
@@ -35,7 +35,7 @@ Package: fr.qwento.libgcc-s1
 Name: libgcc-s1
 Source: gcc-10
 Version: 10.2.1-6
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64 iphoneos-arm
 Filename: ./debs/arm64/libgcc-s1_10.2.1-6_arm64.deb
 Depiction: ./depictions/libgcc-s1
 Protected: yes
@@ -63,7 +63,7 @@ Package: fr.qwento.gcc-10-base
 Name: gcc-10-base
 Source: gcc-10
 Version: 10.2.1-6
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64 iphoneos-arm
 Filename: ./debs/arm64/gcc-10-base_10.2.1-6_arm64.deb
 Depiction: ./depictions/gcc-10-base
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
@@ -86,7 +86,7 @@ Name: MTerminal
 Source: mobileterminal
 Version: 520-2
 Section: Terminal
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Filename: ./debs/arm64/mobileterminal_520-2.deb
 Depiction: ./depictions/MTerminal
 Maintainer: MobileTerminal by BigBoss repo
@@ -107,7 +107,7 @@ Name: UTM
 Source: utm
 Version: 4.3.5
 Section: VMs
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64 iphoneos-arm
 Filename: ./debs/arm64/utm.deb
 Depiction: ./depictions/UTM
 Maintainer: UTM 
